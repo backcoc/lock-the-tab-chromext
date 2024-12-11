@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tab Lock Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+    }
+    input, button {
+      margin: 5px 0;
+      padding: 5px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Tab Lock Settings</h2>
+  <label for="urlInput">Add URL to lock:</label>
+  <input type="text" id="urlInput" placeholder="https://example.com" />
+  <button id="addUrlButton">Add URL</button>
+  <ul id="urlList"></ul>
+  <label for="pinInput">Set PIN:</label>
+  <input type="password" id="pinInput" />
+  <button id="setPinButton">Set PIN</button>
+  <script src="popup.js"></script>
+</body>
+</html>
